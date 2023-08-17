@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteHabit } from "../redux/features/habitSlice";
+import { deleteHabit } from "../redux/reducers/habitSlice";
 import { useNavigate } from "react-router-dom";
 
 const Habit = ({ habit }) => {

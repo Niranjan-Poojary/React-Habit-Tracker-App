@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-// import AddHabit from "../images/addhabit.png";
-import { addHabit } from "../redux/features/habitSlice";
+import { addHabit } from "../redux/reducers/habitSlice";
 
 const Navbar = ({ name }) => {
   // call use dispatch hook a variable call dispatch

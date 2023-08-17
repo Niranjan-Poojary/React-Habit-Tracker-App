@@ -4,8 +4,6 @@ import Home from "./Home";
 import WeekView from "./WeekView";
 
 const App = () => {
-  
-  
   return (
     <>
     <Routes>

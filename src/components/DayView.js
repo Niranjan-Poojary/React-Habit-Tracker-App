@@ -4,14 +4,13 @@ import {
   habitDone,
   habitNone,
   habitUnDone,
-} from "../redux/features/habitSlice";
+} from "../redux/reducers/habitSlice";
 
 const DayView = ({ day }) => {
   // get today date
   const today = new Date();
   // get day from today date
   const todayDay = today.getDay();
-
   // call use dispatch hook a variable call dispatch
   const dispatch = useDispatch();
 
